@@ -1,0 +1,7 @@
+a = input('напишите предложение:')
+print(a)
+from collections import Counter
+letter = 'а'
+myString = a
+count = Counter(myString)[letter]
+print(count)
