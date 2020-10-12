@@ -1,0 +1,16 @@
+def primer() :
+    a = int(input('Введите число'))
+    b = int(input('Введите число'))
+    print(a)
+    print(b)
+    a > b
+    while a < b :
+        a = a + b
+    print(str(a) + 'дождались')
+
+
+
+
+
+
+primer()
