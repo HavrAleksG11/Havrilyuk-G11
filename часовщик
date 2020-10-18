@@ -1,0 +1,8 @@
+import datetime
+a = int(input (" введите число :"))
+print(a)
+print(str(datetime.timedelta(seconds = a)))
+from datetime import datetime
+a = int(input ("введите число:"))
+print(a)
+print(datetime.fromtimestamp(a).strftime("%A, %B %d,%Y %I:%M:%S "))
