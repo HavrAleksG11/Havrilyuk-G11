@@ -1,0 +1,7 @@
+a = int(input("Введите число:"))
+suma = 0
+while a > 0 :
+    digit = a % 10
+    suma = suma + digit
+    a = a // 10
+print("Сума:", suma)
