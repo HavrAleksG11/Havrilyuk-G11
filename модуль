@@ -1,0 +1,5 @@
+def greeting(name):
+    print("привет,"+ name)
+import mymodule
+a = mymodule.greeting("Python")
+print(a)
